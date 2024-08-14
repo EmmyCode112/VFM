@@ -1,6 +1,14 @@
 .inquires {
     display: none !important;
 }
+.flex-col li a {
+    text-decoration: none !important;
+    color: white !important;
+}
+.flex-col li a:hover {
+    color: #a0d320 !important;
+    text-decoration: underline !important;
+}
 @media (max-width: 1096px) {
   .footer {
     width: 95%;

@@ -100,10 +100,10 @@ nav {
     display: inline-block;
   }
   nav {
-    padding: 0;
+    padding: 1rem 0 0 0;
     display: flex;
-    align-items: center;
-    justify-content:start;    
+    align-items: center !important;
+    /* justify-content:;     */
   }
   .header.scrolled .nav-links {
 
@@ -127,7 +127,7 @@ nav {
 
   .nav-links {
     position: fixed;
-    top: 40px;
+    top: 60px;
     left: 0;
     /* backdrop-filter: blur(30px); */
     height: 0vh;
@@ -143,7 +143,14 @@ nav {
 
   .header.scrolled {
     backdrop-filter: blur(30px); /* Maintain blur effect */
+    align-items: center !important;
+    display: flex;
   }
+  /* .header {
+    align-items: center !important;
+    display: flex !important;
+    border: 2px solid red;
+  } */
 
   .nav-links .links {
     flex-direction: column;
